@@ -1,14 +1,4 @@
-import turtle
-import random
-
 kujundid = ["viisnurk, ruut, ring, suvaline"]
-
-tegevus = input("Millist kujundit soovid joonistada (viisnurk, ruut, ring, suvaline): ")
-korrad = int(input("Mitu kujundit soovid joonistada: "))
- 
-aken = turtle.Screen()
-aken.setup(width=800, height=800)
-
 
 def kujundviis(kujundid, korrad):
     for viisnurk in range(korrad):
@@ -45,6 +35,16 @@ def kujundsuv(kujundid, korrad):
             kujundruut(kujundid, korrad)
         elif kujundsuv == "ring":
             kujundring(kujundid, korrad)
+
+tegevus = input("Millist kujundit soovid joonistada (viisnurk, ruut, ring, suvaline): ")
+korrad = int(input("Mitu kujundit soovid joonistada: "))
+
+import turtle
+import random
+ 
+aken = turtle.Screen()
+aken.setup(width=800, height=800)
+
 
 def keha(tegevus, korrad):
     if tegevus == "viisnurk":

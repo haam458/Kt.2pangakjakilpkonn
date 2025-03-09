@@ -19,5 +19,5 @@ while True:
         print(f"Kontojääk: {algne_saldo+summa}" + " €") 
     elif toiming == "valja":
         print(f"Kontojääk: {algne_saldo-summa}" + " €")      
-        break    
+    break    
     
