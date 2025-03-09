@@ -45,17 +45,18 @@ import random
 aken = turtle.Screen()
 aken.setup(width=800, height=800)
 
-
-def keha(tegevus, korrad):
-    if tegevus == "viisnurk":
-        kujundviis(kujundid, korrad)
-    elif tegevus == "ruut":
-        kujundruut(kujundid, korrad)
-    elif tegevus == "ring":
-        kujundring(kujundid, korrad)
-    elif tegevus == "suvaline":
-        kujundsuv(kujundid, korrad)
-
-keha(tegevus, korrad)
+#def keha(tegevus, korrad):
+while 
+        if tegevus == "viisnurk":
+            kujundviis(kujundid, korrad)
+        elif tegevus == "ruut":
+            kujundruut(kujundid, korrad)
+        elif tegevus == "ring":
+            kujundring(kujundid, korrad)
+        elif tegevus == "suvaline":
+            kujundsuv(kujundid, korrad)
+        break
+    
+#keha(tegevus, korrad)
 turtle.done()
 
