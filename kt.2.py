@@ -1,3 +1,6 @@
+import turtle
+import random
+
 kujundid = ["viisnurk, ruut, ring, suvaline"]
 
 def kujundviis(kujundid, korrad):
@@ -39,9 +42,6 @@ def kujundsuv(kujundid, korrad):
 tegevus = input("Millist kujundit soovid joonistada (viisnurk, ruut, ring, suvaline): ")
 korrad = int(input("Mitu kujundit soovid joonistada: "))
 
-import turtle
-import random
- 
 aken = turtle.Screen()
 aken.setup(width=800, height=800)
 
