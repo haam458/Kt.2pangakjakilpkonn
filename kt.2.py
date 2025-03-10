@@ -45,8 +45,7 @@ import random
 aken = turtle.Screen()
 aken.setup(width=800, height=800)
 
-#def keha(tegevus, korrad):
-while 
+while True:
         if tegevus == "viisnurk":
             kujundviis(kujundid, korrad)
         elif tegevus == "ruut":
@@ -57,6 +56,5 @@ while
             kujundsuv(kujundid, korrad)
         break
     
-#keha(tegevus, korrad)
 turtle.done()
 
